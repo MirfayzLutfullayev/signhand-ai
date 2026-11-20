@@ -129,7 +129,7 @@ function Welcome({ onNext, onSkip }) {
     <>
       <h2 style={titleStyle}>Salom!</h2>
       <p style={textStyle}>
-        SignHand — O'zbek imo-ishora tilini o'rgatuvchi platforma. Boshlash uchun bir necha kichik sozlash kerak.
+        Signora — O'zbek imo-ishora tilini o'rgatuvchi platforma. Boshlash uchun bir necha kichik sozlash kerak.
       </p>
       <ul style={{ marginTop: 14, marginBottom: 22, paddingLeft: 18, color: theme.textMuted, fontSize: 13, lineHeight: 1.7 }}>
         <li>Kameraga ruxsat berasiz</li>

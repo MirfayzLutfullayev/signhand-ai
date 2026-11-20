@@ -1,4 +1,4 @@
-// LandingPage.jsx — SignHand AI Imo-Ishora Tili Platformasi
+// LandingPage.jsx — SIGNORA AI Imo-Ishora Tili Platformasi
 import React from 'react';
 import BorderGlow from './BorderGlow';
 
@@ -73,7 +73,7 @@ export default function LandingPage({ navigateTo, dark, openApp }) {
               <p style={{ fontSize:'clamp(14px,1.3vw,17px)', lineHeight:1.82, color:t2, margin:0 }}>
                 O'zbek daktil alifbosining 29 ta harfini bosqichma-bosqich o'rganing.
                 Real vaqtda qo'l va yuz harakatlarini matnga aylantiruvchi tarjimon —
-                kar-soqovlar bilan muloqotni osonlashtiradi.
+                eshitish va nutqda nuqsoni borlar bilan muloqotni osonlashtiradi.
               </p>
             </div>
 

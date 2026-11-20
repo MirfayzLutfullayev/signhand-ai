@@ -70,7 +70,7 @@ export default function AboutPage({ navigateTo, dark }) {
                 color:t1, marginBottom:8,
                 textShadow: dark?'0 0 50px rgba(14,165,233,.3)':'none',
               }}>
-                SignHand
+                SIGNORA AI
               </h1>
               <h1 style={{
                 fontFamily:"'Space Grotesk',sans-serif",

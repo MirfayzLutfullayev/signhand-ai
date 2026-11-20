@@ -15,7 +15,7 @@ export default function DashboardPage({ user, onNavigate, onLogout }) {
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <div style={emblemStyle}>SH</div>
           <div>
-            <div style={{ fontSize: 16, fontWeight: 700, color: theme.primaryDark, letterSpacing: '-0.01em' }}>SignHand</div>
+            <div style={{ fontSize: 16, fontWeight: 700, color: theme.primaryDark, letterSpacing: '-0.01em' }}>Signora AI</div>
             <div style={{ fontSize: 10, color: theme.textMuted, letterSpacing: '0.05em' }}>O'zbek imo-ishora tili platformasi</div>
           </div>
         </div>

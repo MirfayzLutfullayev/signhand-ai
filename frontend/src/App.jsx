@@ -1,4 +1,4 @@
-// App.jsx — SignHand AI Landing Site
+// App.jsx — SIGNORA AI Landing Site
 import React, { useState, useEffect } from 'react';
 
 import LandingPage    from './LandingPage';
@@ -9,8 +9,8 @@ import LoginPage      from './LoginPage';
 import FloatingLines  from './FloatingLines';
 import { isLoggedIn, getUser, logout } from './utils/auth';
 
-// SignHand AI ilovasi URL (asosiy ishlovchi loyiha)
-const SIGNHAND_APP_URL = 'http://localhost:5173';
+// SIGNORA AI ilovasi URL (asosiy ishlovchi loyiha)
+const SIGNORA_AI_APP_URL = 'http://localhost:5173';
 
 /* ── Logo ─────────────────────────────────────────────────── */
 const Logo = ({ onClick }) => (
@@ -21,14 +21,14 @@ const Logo = ({ onClick }) => (
       display:'flex', alignItems:'center', justifyContent:'center',
       color:'#fff', fontFamily:'Space Grotesk', fontWeight:800, fontSize:14,
       boxShadow:'0 4px 16px rgba(14,165,233,.35)',
-    }}>SH</div>
+    }}>SA</div>
     <div>
       <div style={{
         fontSize:15, fontFamily:'Space Grotesk', fontWeight:800,
         letterSpacing:'-.03em', lineHeight:1,
         background:'linear-gradient(135deg,#0ea5e9,#0c4a6e)',
         WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
-      }}>SignHand</div>
+      }}>SIGNORA AI</div>
       <div style={{ fontSize:9, color:'var(--t3)', letterSpacing:'.1em', marginTop:1, fontWeight:600 }}>
         IMO-ISHORA TILI · AI
       </div>
@@ -64,9 +64,9 @@ export default function App() {
   const handleLogout = () => { logout(); setUser(null); setPage('landing'); };
   const nav = (p) => { setPage(p); window.scrollTo({ top:0, behavior:'smooth' }); };
 
-  // SignHand asosiy ilovasiga o'tish
+  // SIGNORA AI asosiy ilovasiga o'tish
   const openApp = (mode) => {
-    window.open(SIGNHAND_APP_URL, '_blank');
+    window.open(SIGNORA_AI_APP_URL, '_blank');
   };
 
   return (
@@ -183,8 +183,8 @@ export default function App() {
         <div className="container">
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', flexWrap:'wrap', gap:16 }}>
             <div style={{ display:'flex', alignItems:'center', gap:8 }}>
-              <div style={{ width:24, height:24, borderRadius:7, background:'linear-gradient(135deg,#0ea5e9,#0c4a6e)', display:'flex', alignItems:'center', justifyContent:'center', color:'#fff', fontSize:11, fontWeight:800 }}>SH</div>
-              <span style={{ fontSize:13, fontWeight:600, color:dark?'#e2e8f0':'#374151' }}>SignHand</span>
+              <div style={{ width:24, height:24, borderRadius:7, background:'linear-gradient(135deg,#0ea5e9,#0c4a6e)', display:'flex', alignItems:'center', justifyContent:'center', color:'#fff', fontSize:11, fontWeight:800 }}>SA</div>
+              <span style={{ fontSize:13, fontWeight:600, color:dark?'#e2e8f0':'#374151' }}>SIGNORA AI</span>
               <span style={{ fontSize:12, color:dark?'rgba(148,163,184,.7)':'#94a3b8' }}>· O'zbek Imo-Ishora Tili AI · 2026</span>
             </div>
             <div style={{ display:'flex', gap:16, flexWrap:'wrap' }}>
