@@ -1,10 +1,10 @@
-# SIGNORA AI
+# SignHand AI
 
 > O'zbek imo-ishora tilini o'rgatuvchi va real-time tarjimon platformasi
 
 ## Loyiha haqida
 
-SIGNORA AI — onlayn dastur. Foydalanuvchi web-kamera oldida qo'l harakatlarini ko'rsatadi, dastur ularni tan oladi va ekranda harf yoki so'z yozadi.
+SignHand AI — onlayn dastur. Foydalanuvchi web-kamera oldida qo'l harakatlarini ko'rsatadi, dastur ularni tan oladi va ekranda harf yoki so'z yozadi.
 
 **3 ta asosiy bo'lim:**
 - **Darslik** — bosqichli imo-ishora kursi (29 harf, 24 dars)
@@ -29,8 +29,8 @@ SIGNORA AI — onlayn dastur. Foydalanuvchi web-kamera oldida qo'l harakatlarini
 
 ```bash
 # 1. Repository'ni klonlash
-git clone https://github.com/lexoraai-web/sign.git
-cd sign
+git clone https://github.com/MirfayzLutfullayev/signhand-ai.git
+cd signhand-ai
 
 # 2. Kutubxonalarni o'rnatish
 npm install

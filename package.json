@@ -1,8 +1,8 @@
 {
-  "name": "signora-ai",
+  "name": "signhand-ai",
   "private": true,
   "version": "0.1.0",
-  "description": "SIGNORA AI — O'zbek imo-ishora tili o'rgatish va real-time tarjimon platformasi",
+  "description": "SignHand AI — O'zbek imo-ishora tili o'rgatish va real-time tarjimon platformasi",
   "type": "module",
   "scripts": {
     "dev": "vite",

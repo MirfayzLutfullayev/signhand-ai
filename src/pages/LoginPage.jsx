@@ -38,7 +38,7 @@ export default function LoginPage() {
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
           <div style={emblemStyle}>SH</div>
           <h1 style={{ fontSize: 22, fontWeight: 700, color: theme.primaryDark, margin: 0, letterSpacing: '-0.01em' }}>
-            Signora
+            SignHand AI
           </h1>
           <div style={{ fontSize: 12, color: theme.textMuted, marginTop: 4 }}>
             O'zbek imo-ishora tili o'qitish platformasi

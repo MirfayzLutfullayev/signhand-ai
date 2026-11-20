@@ -88,9 +88,9 @@ export default function EducationPage({ navigateTo, dark, openApp }) {
                 background:'linear-gradient(135deg,#0ea5e9,#0c4a6e)',
                 display:'flex', alignItems:'center', justifyContent:'center',
                 fontSize:12, fontWeight:800, color:'#fff',
-              }}>SA</div>
+              }}>SH</div>
               <span style={{ color:'#e2e8f0', fontWeight:700, fontSize:14, fontFamily:'Space Grotesk' }}>
-                SIGNORA AI — Imo-Ishora Tili
+                SignHand AI — Imo-Ishora Tili
               </span>
               <span style={{
                 padding:'2px 10px', borderRadius:100, fontSize:10, fontWeight:700,
@@ -114,7 +114,7 @@ export default function EducationPage({ navigateTo, dark, openApp }) {
           {/* iframe */}
           <iframe
             src="http://localhost:5173"
-            title="SIGNORA AI"
+            title="SignHand AI"
             allow="camera; microphone"
             style={{ flex:1, border:'none', width:'100%' }}
           />
@@ -242,7 +242,7 @@ export default function EducationPage({ navigateTo, dark, openApp }) {
                       <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
                         <path d="M5 12h14M12 5l7 7-7 7" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
-                      SIGNORA AI ni Ochish
+                      SignHand AI ni Ochish
                     </div>
                   </div>
                 </BorderGlow>
@@ -359,7 +359,7 @@ export default function EducationPage({ navigateTo, dark, openApp }) {
               Imo-Ishora Tili bo'limi haqida
             </div>
             <div style={{ fontSize:13.5, color:t2, lineHeight:1.65 }}>
-              SIGNORA AI da qo'l va yuz harakatlari orqali o'zbek daktil alifbosini o'rganasiz.
+              SignHand AI da qo'l va yuz harakatlari orqali o'zbek daktil alifbosini o'rganasiz.
               MediaPipe AI texnologiyasi qo'l skeletoni va yuz mimikasini tahlil qiladi.
               29 ta harf, 24 bosqichli dars, real-time tarjimon mavjud.
             </div>

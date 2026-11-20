@@ -1,4 +1,4 @@
-// LandingPage.jsx — SIGNORA AI Imo-Ishora Tili Platformasi
+// LandingPage.jsx — SignHand AI Imo-Ishora Tili Platformasi
 import React from 'react';
 import BorderGlow from './BorderGlow';
 
